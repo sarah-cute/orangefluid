@@ -1,0 +1,25 @@
+{
+  "name": "slot-gacor",
+  "main": "./lib/slot-gacor",
+  "version": "1.0.0",
+  "description": "Daftar situs agen slot gacor Terbaru.",
+  "keywords": [
+    "slot gacor",
+    "slot terbaru",
+    "agen slot"
+  ],
+  "activationCommands": {
+    "atom-workspace": "sourcerer:fetch"
+  },
+  "repository": "https://github.com/sarah-cute/orangefluid",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.3",
+    "cheerio": "^0.20.0",
+    "google": ">=2.0.0",
+    "request": "^2.72.0"
+  }
+}
